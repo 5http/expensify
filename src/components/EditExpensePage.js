@@ -23,7 +23,7 @@ export class EditExpensePage extends React.Component {
                         <h1 className="page-header__title">Edit expense</h1>
                     </div>
                 </div>
-                <div className="content-container">
+                <div className="content-container content-container--last">
                     <ExpenseForm 
                         expense={this.props.expense}
                         onSubmit={this.onSubmit}

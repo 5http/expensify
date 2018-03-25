@@ -27,6 +27,7 @@
 }
 
 .button--remove {
+    margin-top: $m-size;
     background: $middle-gray;
     @include darkenHover($middle-gray);
 }
